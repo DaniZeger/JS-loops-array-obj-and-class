@@ -1,0 +1,35 @@
+#root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  height: 150px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.down {
+  transform: rotate(180deg);
+}
+
+.sign {
+  text-align: center;
+  font-size: 45px;
+}
+
+.red {
+  color: red;
+}
+
+.fliped {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(/img/card\ back\ black.png);
+}
